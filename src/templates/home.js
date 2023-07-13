@@ -44,10 +44,10 @@ function Home() {
                     transition={{ delay: 1, duration: 2 }}
                 >
                     <li className='social-link'>
-                        <a href="https://www.linkedin.com/in/vaddadi-abhishek" target='_blank' title='Linkedin'><i className="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/vaddadi-abhishek" target='_blank' rel='noreferrer' title='Linkedin'><i className="fa-brands fa-linkedin"></i></a>
                     </li>
                     <li className='social-link'>
-                        <a href="https://github.com/vaddadi-abhishek" target='_blank' title='Github'><i className="fa-brands fa-square-github"></i></a>
+                        <a href="https://github.com/vaddadi-abhishek" target='_blank' rel='noreferrer' title='Github'><i className="fa-brands fa-square-github"></i></a>
                     </li>
                 </motion.ul>
             </div>
@@ -56,7 +56,7 @@ function Home() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 2 }}
             >
-                <img className="border-bottom my-img" src={Abhi} alt="My Image" />
+                <img className="border-bottom my-img" src={Abhi} alt="Abhishek" />
             </motion.div>
         </section >
     )

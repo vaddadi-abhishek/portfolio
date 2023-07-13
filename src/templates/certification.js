@@ -20,7 +20,7 @@ function Certification() {
                 transition={{ duration: 1 }}
             >
                 <div className="col-sm-4 text-center">
-                    <img className="border" src={Aviatrix} style={{ width: "14rem" }} />
+                    <img className="border" src={Aviatrix} alt="aviatrix" style={{ width: "14rem" }} />
                 </div>
                 <div className="col-sm mt-4">
                     <h5>Multi-Cloud Network Associate</h5>
@@ -35,7 +35,7 @@ function Certification() {
                 transition={{ duration: 1, delay: 0.4 }}
             >
                 <div className="col-sm-3 text-center">
-                    <img className="border" src={AzureAi} style={{ width: "9rem" }} />
+                    <img className="border" src={AzureAi} alt="AzureAI" style={{ width: "9rem" }} />
                 </div>
                 <div className="col-sm mt-4">
                     <h5>Microsoft Azure AI Fundementals</h5>
@@ -50,7 +50,7 @@ function Certification() {
                 transition={{ duration: 1, delay: 0.6 }}
             >
                 <div className="col-sm-3 text-center">
-                    <img className="border" src={AzureFund} style={{ width: "9rem" }} />
+                    <img className="border" src={AzureFund} alt="AzureFundemental" style={{ width: "9rem" }} />
                 </div>
                 <div className="col-sm mt-4">
                     <h5>Microsoft Azure Fundementals</h5>
