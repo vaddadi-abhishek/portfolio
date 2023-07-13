@@ -44,10 +44,10 @@ function Home() {
                     transition={{ delay: 1, duration: 2 }}
                 >
                     <li className='social-link'>
-                        <a href="#" title='Linkedin'><i className="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/vaddadi-abhishek" target='_blank' title='Linkedin'><i className="fa-brands fa-linkedin"></i></a>
                     </li>
                     <li className='social-link'>
-                        <a href="" title='Github'><i className="fa-brands fa-square-github"></i></a>
+                        <a href="https://github.com/vaddadi-abhishek" target='_blank' title='Github'><i className="fa-brands fa-square-github"></i></a>
                     </li>
                 </motion.ul>
             </div>

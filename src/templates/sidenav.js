@@ -65,7 +65,9 @@ function SideNav() {
               animate={{ x: 0 }}
               transition={{ type: 'spring', delay: 0.5 }}
             >
-              <a className="nav-link" href="">
+              <a className="nav-link" target="_blank" href="https://drive.google.com/file/d/1Lobxxcr_sZjntic4oS0yT9Qm9ljv6HL0/view?usp=sharing">
+                <i class="fa-solid fa-download"></i>
+                &nbsp;
                 Resume
               </a>
             </motion.li>
