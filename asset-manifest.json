@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1cab7321.css",
+    "main.js": "/portfolio/static/js/main.2072b60f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Abhi.png": "/portfolio/static/media/Abhi.b915258ac5d305702a2b.png",
+    "static/media/aviatrix.png": "/portfolio/static/media/aviatrix.34b617f8180c71ce61d2.png",
+    "static/media/azure ai.png": "/portfolio/static/media/azure ai.e33252213c9677f4764d.png",
+    "static/media/azure fund.png": "/portfolio/static/media/azure fund.2676591208d78abb87d6.png",
+    "index.html": "/portfolio/index.html",
+    "main.1cab7321.css.map": "/portfolio/static/css/main.1cab7321.css.map",
+    "main.2072b60f.js.map": "/portfolio/static/js/main.2072b60f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cab7321.css",
+    "static/js/main.2072b60f.js"
+  ]
+}
