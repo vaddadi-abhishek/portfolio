@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import SideNav from "./templates/sidenav";
+import Home from "./templates/home";
+import Education from "./templates/education";
+import Skills from "./templates/skills";
+import { Fragment } from "react";
+import "./css/app.css"
+import Certification from "./templates/certification";
+import Work from "./templates/work";
+import Projects from "./templates/project";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <SideNav/>
+      <div className="app-content bg-dark text-light" data-bs-spy="scroll" data-bs-target="#NavLinks" tabindex="0">
+        <Home />
+        <Education />
+        <Skills />
+        <Certification />
+        <Work />
+        <Projects />
+      </div>
+    </Fragment>
   );
 }
 

@@ -1,0 +1,23 @@
+#skills, #certification {
+    height: 100vh;
+    padding: 2rem;
+}
+
+#projects {
+    padding: 2rem;
+}
+
+.timeline-container > h2 {
+    padding-left: 45%;
+}
+
+@media (max-width: 767.98px) 
+{
+    #skills, #certification {
+        height: auto;
+    }
+    
+    .timeline-container > h2 {
+        padding-left: 0;
+    }
+}

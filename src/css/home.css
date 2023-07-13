@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+#home {
+    height: 100vh;
+}
+
+.my-img {
+    height: 98vh;
+}
+
+.intro {
+    font-family: 'Audiowide';
+}
+
+.about-me {
+    font-family: 'Kalam';
+}
+
+.social-links {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-links .social-link {
+    padding: 0;
+    margin: 0 2rem;
+}
+
+.social-links .social-link a{
+    color: white;
+    font-size: 28px;
+}
+
+.social-links .social-link a[title='Linkedin'] {
+    color: #0A66C2;
+}
+
+@media (max-width: 767.98px)
+{
+    .my-img {
+        display: none;
+    }
+}

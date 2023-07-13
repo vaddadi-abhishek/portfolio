@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+#education {
+    height: 100vh;
+    padding: 2rem;
+}
+
+.title {
+    font-family: 'Moon Dance';
+    font-size: 48px;
+}
+
+.timeline{
+    position: relative;
+    max-width: 1200px;
+}
+
+.timeline-container {
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+}
+
+.left-container {
+    left: 0;
+
+}
+
+.right-container {
+    left: 50%;
+}
+
+.timeline-dot {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    top: 32px;
+    z-index: 10;
+}
+
+.timeline-dot-right {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -10px;
+    top: 32px;
+    z-index: 10;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1;
+}
+
+@media (max-width: 575.98px) {
+    #education {
+        height: auto;
+    }
+    .timeline-container {
+        width: 100%;
+    }
+    .timeline-dot {
+        left: -10px;
+    }
+    .right-container {
+        left: 0;
+    }
+    .timeline::after {
+        left: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #education {
+        height: auto;
+    }
+    .timeline-container {
+        width: 100%;
+    }
+    .timeline-dot {
+        left: -10px;
+    }
+    .right-container {
+        left: 0;
+    }
+    .timeline::after {
+        left: 0;
+    }
+}
