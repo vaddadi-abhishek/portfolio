@@ -65,7 +65,7 @@ function SideNav() {
               animate={{ x: 0 }}
               transition={{ type: 'spring', delay: 0.5 }}
             >
-              <a className="nav-link" target="_blank" rel="noreferre" href="https://drive.google.com/file/d/13YiefhNsLOFVvziGgEkY8LOIt_BLpYIH/view?usp=sharing">
+              <a className="nav-link" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/13YiefhNsLOFVvziGgEkY8LOIt_BLpYIH/view?usp=sharing">
                 <i class="fa-solid fa-download"></i>
                 &nbsp;
                 Resume
