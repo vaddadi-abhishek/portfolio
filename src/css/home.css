@@ -15,6 +15,7 @@
 
 .about-me {
     font-family: 'Kalam';
+    padding: 3rem;
 }
 
 .social-links {
@@ -38,6 +39,12 @@
 
 @media (max-width: 767.98px)
 {
+    #home {
+       transform: translateY(5%);
+    }
+    .about-me {
+        padding: 1rem;
+    }
     .my-img {
         display: none;
     }

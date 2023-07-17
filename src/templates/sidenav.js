@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function SideNav() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg fixed-top">
       <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -20,7 +20,7 @@ function SideNav() {
               animate={{ x: 0 }}
               transition={{ type: 'spring' }}
             >
-              <a className="nav-link" aria-current="page" href="#education">
+              <a className="nav-link" href="#education">
                 Education
               </a>
             </motion.li>

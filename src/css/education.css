@@ -10,7 +10,7 @@
     font-size: 48px;
 }
 
-.timeline{
+.timeline {
     position: relative;
     max-width: 1200px;
 }
@@ -66,17 +66,21 @@
 
 @media (max-width: 575.98px) {
     #education {
-        height: auto;
+        /* height: auto; */
     }
+
     .timeline-container {
         width: 100%;
     }
+
     .timeline-dot {
         left: -10px;
     }
+
     .right-container {
         left: 0;
     }
+
     .timeline::after {
         left: 0;
     }
@@ -86,15 +90,19 @@
     #education {
         height: auto;
     }
+
     .timeline-container {
         width: 100%;
     }
+
     .timeline-dot {
         left: -10px;
     }
+
     .right-container {
         left: 0;
     }
+
     .timeline::after {
         left: 0;
     }
