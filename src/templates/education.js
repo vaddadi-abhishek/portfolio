@@ -23,7 +23,7 @@ function Education() {
                         <h2>Bachelor of Technology</h2>
                         <h4 style={{color: "#0E9E1F"}}>K L University</h4>
                         <h6>Degree in Computer Science</h6>
-                        <small>2019-2023</small>
+                        <small>2019-2024</small>
                         <p>CGPA:<span>5.6</span></p>
                     </motion.div>
                 </div>
