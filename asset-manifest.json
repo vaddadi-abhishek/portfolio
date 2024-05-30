@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.be820bd7.css",
-    "main.js": "/portfolio/static/js/main.387c3752.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/portfolio/static/css/main.bef1db09.css",
+    "main.js": "/portfolio/static/js/main.9aa4c417.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Abhi.png": "/portfolio/static/media/Abhi.b915258ac5d305702a2b.png",
     "static/media/aviatrix.png": "/portfolio/static/media/aviatrix.34b617f8180c71ce61d2.png",
-    "static/media/azure ai.png": "/portfolio/static/media/azure ai.e33252213c9677f4764d.png",
-    "static/media/azure fund.png": "/portfolio/static/media/azure fund.2676591208d78abb87d6.png",
+    "static/media/aws-cloud-architecture.png": "/portfolio/static/media/aws-cloud-architecture.f106dd3835c94f3fb08b.png",
+    "static/media/aws-cloud-foundations.png": "/portfolio/static/media/aws-cloud-foundations.50ad6d8c0ceec1e589a2.png",
     "index.html": "/portfolio/index.html",
-    "main.be820bd7.css.map": "/portfolio/static/css/main.be820bd7.css.map",
-    "main.387c3752.js.map": "/portfolio/static/js/main.387c3752.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.bef1db09.css.map": "/portfolio/static/css/main.bef1db09.css.map",
+    "main.9aa4c417.js.map": "/portfolio/static/js/main.9aa4c417.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be820bd7.css",
-    "static/js/main.387c3752.js"
+    "static/css/main.bef1db09.css",
+    "static/js/main.9aa4c417.js"
   ]
 }
