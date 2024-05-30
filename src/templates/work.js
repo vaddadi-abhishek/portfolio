@@ -19,7 +19,7 @@ function Work() {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 2 }}
                     >
-                        12/2022 - 03/2023
+                        06/2021 - 03/2022
                     </motion.h2>
                     <motion.div className="p-3 bg-light text-dark border rounded position-relative"
                         initial={{ opacity: 0, x: -20 }}
@@ -27,7 +27,7 @@ function Work() {
                         transition={{ duration: 2 }}
                     >
                         <h2>Spectral Clusetring</h2>
-                        <h6 className="text-secondary">Samsung Prism</h6>
+                        <h6 style={{color:"#0E9E1F"}}>Samsung Prism</h6>
                         <p className="text-secondary lh-sm" style={{ fontSize: "12px", marginBottom: "0.5rem" }}>Samsung PRISM is a student program offering students a chance to work on real-world projects, interact with Samsung’s technical experts.</p>
                         <h6>Achievements/Tasks</h6>
                         <ul>
@@ -44,7 +44,7 @@ function Work() {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 2 }}
                     >
-                        10/2021 - 01/2022
+                        10/2022 - 01/2023
                     </motion.h2>
                     <motion.div className="p-3 bg-light text-dark border rounded position-relative"
                         initial={{ opacity: 0, x: 20 }}
@@ -52,7 +52,7 @@ function Work() {
                         transition={{ duration: 2 }}
                     >
                         <h2>AWS Cloud Virtual Internship</h2>
-                        <h6 className="text-secondary">AICTE - EduSkills Foundation</h6>
+                        <h6 style={{color:"#0E9E1F"}}>AICTE - EduSkills Foundation</h6>
                         <p className="text-secondary lh-sm" style={{ fontSize: "12px", marginBottom: "0.5rem" }}>All India Council for Technical Education (AICTE) is a national-level Apex Advisory Body. It aims to encourage India’s development in an integrated manner</p>
                         <h6>Achievements/Tasks</h6>
                         <ul>

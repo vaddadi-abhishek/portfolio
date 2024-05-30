@@ -32,10 +32,9 @@ function Home() {
                     transition={{ duration: 1 }}
                 >
                     <p className="lh-lg fs-5">
-                        Passionate and highly skilled fresher with strong  strong foundation in Data Structures and
-                        exceptional problem-solving abilities. Proficient in C, Java, Python. Skilled in web development
-                        technologies including HTML, CSS, and JavaScript. Intermediate proficiency in frameworks like Django
-                        and ReactJs. Committed to continuous learning and contributing to dynamic projects.
+                    Highly motivated graduate with a strong background in Data Structures and a passion for solving problems. 
+                    Proficient in programming languages like C, Java, and Python. Seeking an entry-level Software Engineer position to 
+                    leverage my skills and contribute to innovative software solutions.
                     </p>
                 </motion.div>
                 <motion.ul className="d-flex social-links"

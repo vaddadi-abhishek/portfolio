@@ -16,9 +16,9 @@ function App() {
         <Home />
         <Education />
         <Skills />
-        <Certification />
         <Work />
         <Projects />
+        <Certification />
       </div>
     </Fragment>
   );

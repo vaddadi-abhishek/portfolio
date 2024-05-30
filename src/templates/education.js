@@ -20,8 +20,9 @@ function Education() {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 2 }}
                     >
-                        <h2>K L University</h2>
-                        <h6>Bachelor of Technology (CSE)</h6>
+                        <h2>Bachelor of Technology</h2>
+                        <h4 style={{color: "#0E9E1F"}}>K L University</h4>
+                        <h6>Degree in Computer Science</h6>
                         <small>2019-2023</small>
                         <p>CGPA:<span>5.6</span></p>
                     </motion.div>
@@ -34,8 +35,9 @@ function Education() {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 2, delay: 0.2 }}
                     >
-                        <h2>Sri Chaitanya</h2>
-                        <h6>Intermediate/12th (MPC)</h6>
+                        <h2>Intermediate/12th</h2>
+                        <h4 style={{color: "#0E9E1F"}}>Sri Chaitanya</h4>
+                        <h6>Maths, Physics and Chemistry</h6>
                         <small>2017-2019</small>
                         <p>CGPA:<span>8.8</span></p>
                     </motion.div>
@@ -48,8 +50,8 @@ function Education() {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 2, delay: 0.2 }}
                     >
-                        <h2>Gowtham School</h2>
-                        <h6>10th Class</h6>
+                        <h2>High School (10th class)</h2>
+                        <h4 style={{color: "#0E9E1F"}}>Gowtham School</h4>
                         <small>2016-2017</small>
                         <p>CGPA:<span>9.8</span></p>
                     </motion.div>

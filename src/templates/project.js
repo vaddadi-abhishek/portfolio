@@ -33,7 +33,7 @@ function Projects() {
                     <div className="d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProject1" aria-expanded="false" aria-controls="collapseExample"
                         onClick={() => toggleCollapse('project1')}>
                         <div>
-                            <h2>Food Ordering System</h2>
+                            <h2 style={{color:"#0E9E1F"}}>Food Ordering System</h2>
                             <p className="text-secondary" style={{ marginBottom: "0.5rem" }}>01/2020 - 05/2020</p>
                         </div>
                         <i className={`ms-auto fa-solid ${projects.project1 ? 'fa-eye' : 'fa-eye-slash'}`}></i>
@@ -56,7 +56,7 @@ function Projects() {
                     <div className="d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProject2" aria-expanded="false" aria-controls="collapseExample"
                         onClick={() => toggleCollapse('project2')}>
                         <div>
-                            <h2>Online Art Gallery</h2>
+                            <h2 style={{color:"#0E9E1F"}}>Online Art Gallery</h2>
                             <p className="text-secondary" style={{ marginBottom: "0.5rem" }}>08/2021 - 01/2022</p>
                         </div>
                         <i className={`ms-auto fa-solid ${projects.project2 ? 'fa-eye' : 'fa-eye-slash'}`}></i>

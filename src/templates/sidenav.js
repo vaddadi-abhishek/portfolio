@@ -36,21 +36,13 @@ function SideNav() {
             <motion.li className="nav-item"
               initial={{ x: -300 }}
               animate={{ x: 0 }}
-              transition={{ type: 'spring', delay: 0.3 }}
-            >
-              <a className="nav-link" href="#certification">
-                Certifications
-              </a>
-            </motion.li>
-            <motion.li className="nav-item"
-              initial={{ x: -300 }}
-              animate={{ x: 0 }}
               transition={{ type: 'spring', delay: 0.4 }}
             >
               <a className="nav-link" href="#work">
                 Work Experience
               </a>
             </motion.li>
+            
             <motion.li className="nav-item"
               initial={{ x: -300 }}
               animate={{ x: 0 }}
@@ -60,12 +52,23 @@ function SideNav() {
                 Projects
               </a>
             </motion.li>
+
+            <motion.li className="nav-item"
+              initial={{ x: -300 }}
+              animate={{ x: 0 }}
+              transition={{ type: 'spring', delay: 0.3 }}
+            >
+              <a className="nav-link" href="#certification">
+                Certifications
+              </a>
+            </motion.li>
+
             <motion.li className="nav-item"
               initial={{ x: -300 }}
               animate={{ x: 0 }}
               transition={{ type: 'spring', delay: 0.5 }}
             >
-              <a className="nav-link" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/13YiefhNsLOFVvziGgEkY8LOIt_BLpYIH/view?usp=sharing">
+              <a className="nav-link" target="_blank" rel="noreferrer" href="https://mega.nz/file/RyogmS6b#mjVjgW4ZHhQKbh6D4iYV2_s4kTYInnusVbicbSueSIA">
                 <i class="fa-solid fa-download"></i>
                 &nbsp;
                 Resume

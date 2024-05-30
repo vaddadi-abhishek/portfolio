@@ -1,6 +1,6 @@
 import Aviatrix from "../Pics/aviatrix.png"
-import AzureAi from "../Pics/azure ai.png"
-import AzureFund from "../Pics/azure fund.png"
+import AWSCloudFoundation from "../Pics/aws-cloud-foundations.png"
+import AWSCloudArchitecture from "../Pics/aws-cloud-architecture.png"
 import { motion } from "framer-motion"
 
 function Certification() {
@@ -25,7 +25,9 @@ function Certification() {
                 <div className="col-sm mt-4">
                     <h5>Multi-Cloud Network Associate</h5>
                     <p className="text-secondary">Aviatrix Certified Engineer</p>
-                    <small><a href="https://www.credly.com/badges/8c1d035a-7326-4769-9a1b- 93824ea953e0/public_url">Credly</a></small>
+                    <small><a href="https://www.credly.com/badges/8c1d035a-7326-4769-9a1b-93824ea953e0/public_url">
+                    https://www.credly.com/badges/8c1d035a-7326-4769-9a1b-93824ea953e0/public_url
+                    </a></small>
                 </div>
             </motion.div>
             {/* Certification */}
@@ -35,12 +37,14 @@ function Certification() {
                 transition={{ duration: 1, delay: 0.4 }}
             >
                 <div className="col-sm-3 text-center">
-                    <img className="border" src={AzureAi} alt="AzureAI" style={{ width: "9rem" }} />
+                    <img className="border" src={AWSCloudFoundation} alt="AzureAI" style={{ width: "9rem" }} />
                 </div>
                 <div className="col-sm mt-4">
-                    <h5>Microsoft Azure AI Fundementals</h5>
-                    <p className="text-secondary">Microsoft</p>
-                    <small><a href="https://www.credly.com/badges/b2026fbb-0585-4507-b66f-f54c4f6fac74/public_url">Credly</a></small>
+                    <h5>AWS Academy Cloud Foundations</h5>
+                    <p className="text-secondary">AWS Academy</p>
+                    <small><a href="https://www.credly.com/badges/0fd55cde-b5a0-49f1-87a0-c1c977bee207/public_url">
+                    https://www.credly.com/badges/0fd55cde-b5a0-49f1-87a0-c1c977bee207/public_url
+                    </a></small>
                 </div>
             </motion.div>
             {/* Certification */}
@@ -50,12 +54,14 @@ function Certification() {
                 transition={{ duration: 1, delay: 0.6 }}
             >
                 <div className="col-sm-3 text-center">
-                    <img className="border" src={AzureFund} alt="AzureFundemental" style={{ width: "9rem" }} />
+                    <img className="border" src={AWSCloudArchitecture} alt="AzureFundemental" style={{ width: "9rem" }} />
                 </div>
                 <div className="col-sm mt-4">
-                    <h5>Microsoft Azure Fundementals</h5>
-                    <p className="text-secondary">Microsoft</p>
-                    <small><a href="https://www.credly.com/badges/ddcf6dbe-5b22-4257-ad68-5d1b6e7d9af6/public_url">Credly</a></small>
+                    <h5>AWS Academy Cloud Architecting</h5>
+                    <p className="text-secondary">AWS Academy</p>
+                    <small><a href="https://www.credly.com/badges/d12129ef-da47-45df-a5d2-e53bd0f34b40/public_url">
+                    https://www.credly.com/badges/d12129ef-da47-45df-a5d2-e53bd0f34b40/public_url
+                    </a></small>
                 </div>
             </motion.div>
 
